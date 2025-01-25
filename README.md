@@ -222,23 +222,4 @@ This returns the top matching docs/snippets. You can pass those snippets to your
 
 <hr />
 
-<h2><strong>Contributing</strong></h2>
-<ol>
-    <li>Fork this repo or clone it.</li>
-    <li>Add new watchers, scripts, or new <code>.template</code> files as needed.</li>
-    <li>Submit a pull request or open an issue if you have improvements or suggestions.</li>
-</ol>
-
-<hr />
-
-<h2><strong>Contact</strong></h2>
-<p>If you have any questions about setting up your AI meta environment, embeddings, or <code>.cursorrules</code> usage, feel free to open an issue on GitHub or reach out directly: <strong>rajat.pratap.singh@outlook.com</strong>.</p>
-
-<hr />
-
-<p><strong>Enjoy your fully integrated AI “Meta/Context” pipeline!</strong> 
-This approach should help you maintain consistent documentation/styles 
-and empower advanced semantic search or retrieval-augmented AI workflows 
-across all your projects.</p>
-
 </body>
