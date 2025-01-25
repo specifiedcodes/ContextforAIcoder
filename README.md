@@ -1,7 +1,7 @@
 
 <body>
 
-<h1><strong>my-ai-meta-repo</strong></h1>
+<h1><strong>ContextforAIcoder</strong></h1>
 <p><em>Readme.md was generated using OpenAI so if you see some errors please don’t get triggered!</em></p>
 
 <p>This repository provides a <strong>“Meta/Context” system</strong> for advanced AI-driven development. It includes:</p>
@@ -14,7 +14,7 @@
 <hr />
 
 <h2><strong>Directory Structure</strong></h2>
-<pre class="code-block"><code>my-ai-meta-repo/
+<pre class="code-block"><code>ContextforAIcoder/
 ├── context/
 │   ├── PROJECT_CONTEXT.template.json
 │   ├── cursorrules.template.json
@@ -82,25 +82,23 @@
 
 <h2><strong>Setup</strong></h2>
 <ol>
-  <!-- 1) Clone this Repo -->
   <li>
     <strong>Clone this Repo</strong>
-    <pre class="code-block"><code>git clone https://github.com/rajatpratapsingh1993/my-ai-meta-repo.git</code></pre>
+    <pre class="code-block"><code>git clone https://github.com/specifiedcodes/ContextforAIcoder.git</code></pre>
   </li>
 
-  <!-- 2) (Optional) Add a .gitignore -->
   <li>
     <strong>(Optional) Add a <code>.gitignore</code></strong><br />
     Make sure your local embeddings directory (<code>.chroma/</code> or <code>db/</code>) is ignored to avoid committing large files.
   </li>
 </ol>
+
 <hr />
 
 <h2><strong>Usage</strong></h2>
 <h3><strong>A. Embedding Code &amp; Docs</strong></h3>
 
 <ol>
-  <!-- Example from usage instructions for update_embeddings.py -->
   <li>
     <strong>Run <code>update_embeddings.py</code> Directly</strong><br />
     <p>(In the default example, it tries to embed <code>["src/routes/user.js", "README.md"]</code>. Adapt it to your own file paths.)</p>
@@ -109,7 +107,6 @@ python update_embeddings.py
 </code></pre>
   </li>
 
-  <!-- Run the Watcher Script -->
   <li>
     <strong>Run the Watcher Script (<code>watch_changes.py</code>)</strong><br />
     <p>In <code>context/watchers/</code>:</p>
@@ -123,6 +120,7 @@ python update_embeddings.py
     </p>
   </li>
 </ol>
+
 <p><strong>Where Are the Embeddings Saved?</strong><br />
 By default, Chroma will create a local DB folder (often <code>.chroma/</code>) in your working directory.<br />
 You can customize this in <code>update_embeddings.py</code> (e.g., <code>db = Chroma(collection_name="my-project", persist_directory="my_chroma_db")</code>).
@@ -134,12 +132,12 @@ You can customize this in <code>update_embeddings.py</code> (e.g., <code>db = Ch
 <p>You have two main approaches to bring these meta-tools into your real project:</p>
 <ol>
     <li><strong>Submodule Approach</strong>
-        <pre class="code-block"><code>git submodule add https://github.com/YourUserName/my-ai-meta-repo.git context</code></pre>
+        <pre class="code-block"><code>git submodule add https://github.com/specifiedcodes/ContextforAIcoder.git context</code></pre>
         Now you have a <code>context/</code> folder with all scripts. You can rename or move the <code>.template</code> files and start using them.
     </li>
     <li><strong>Manual Copy</strong><br />
         Simply copy <code>context/</code> into your project.<br />
-        You lose the direct link to updates in <code>my-ai-meta-repo</code>, but it may be simpler if you prefer a one-off integration.
+        You lose the direct link to updates in <code>ContextforAIcoder</code>, but it may be simpler if you prefer a one-off integration.
     </li>
 </ol>
 
@@ -232,9 +230,8 @@ This returns the top matching docs/snippets. You can pass those snippets to your
 
 <hr />
 
-
 <h2><strong>Contact</strong></h2>
-<p>If you have any questions about setting up your AI meta environment, embeddings, or <code>.cursorrules</code> usage, feel free to open an issue on GitHub or reach out directly rajat.pratap.singh@outlook.com.</p>
+<p>If you have any questions about setting up your AI meta environment, embeddings, or <code>.cursorrules</code> usage, feel free to open an issue on GitHub or reach out directly: <strong>rajat.pratap.singh@outlook.com</strong>.</p>
 
 <hr />
 
@@ -244,4 +241,3 @@ and empower advanced semantic search or retrieval-augmented AI workflows
 across all your projects.</p>
 
 </body>
-</html>
