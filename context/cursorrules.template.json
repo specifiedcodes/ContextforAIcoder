@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "description": "Default code doc and style rules",
+    "rules": [
+      {
+        "id": "xml-doc-classes",
+        "applies_to": ["classes"],
+        "description": "Require XML doc comments for all classes",
+        "instructions": [
+          "Include a <summary> block explaining the class purpose."
+        ]
+      },
+      {
+        "id": "inline-comments-logic",
+        "applies_to": ["if_statements", "loops"],
+        "description": "Inline comments for logic",
+        "instructions": [
+          "Add a short comment explaining why the condition is needed."
+        ]
+      }
+    ],
+    "ai_constraints": {
+      "never_modify_files": ["src/security/CriticalAuthLogic.js"],
+      "reference_docs": ["DOCS/SECURITY.md"],
+      "global_instructions": [
+        "Use style guidelines from DOCS/CODING_STYLE.md"
+      ]
+    }
+  }
+  

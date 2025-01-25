@@ -1,0 +1,19 @@
+{
+    "project_name": "My Finance App",
+    "description": "A multi-repo finance project with Node/Express, Next.js, and Docker",
+    "tech_stack": {
+      "frontend": "Next.js",
+      "backend": "Node/Express",
+      "database": "PostgreSQL"
+    },
+    "features": [
+      "User management",
+      "Transactions",
+      "Analytics dashboard"
+    ],
+    "api_endpoints": {},
+    "rules_for_ai": {
+      "check_these_docs_first": ["DOCS/SECURITY.md"]
+    }
+  }
+
