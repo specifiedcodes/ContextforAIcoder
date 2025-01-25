@@ -3,7 +3,7 @@
 
 <h1><strong>ContextforAIcoder</strong></h1>
 <p><em>Readme.md was generated using OpenAI so if you see some errors please don’t get triggered!</em></p>
-<p><em>IMP: you can also use it with your existing project just tell your ai code helper to make changes to your files as per .cursorrules and then you can manually decide which changes you want and this way watcher will be called and it will update vector databae too for updated context which you can later reference with your ai code helper.</em></p>
+<p><em>IMP: you can also use it with your existing project just tell your ai code helper to make changes to your files as per .cursorrules and then you can manually decide which changes you want and this way watcher will be called and it will update vector database too for updated context which you can later reference with your ai code helper.</em></p>
 
 <p>This repository provides a <strong>“Meta/Context” system</strong> for advanced AI-driven development. It includes:</p>
 <ul>
